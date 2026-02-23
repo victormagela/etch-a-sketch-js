@@ -7,8 +7,30 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    padding: 12px 8px;
+    background-color: hsl(210, 100%, 56%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: azure;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(210, 100%, 66%);
+}
+
+button:active {
+    background-color: hsl(210, 100%, 76%);
 }
 
 .container {
